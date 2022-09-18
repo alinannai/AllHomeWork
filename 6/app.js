@@ -5,8 +5,9 @@
 
 // if (true) {
 //     let letL = 'sayHi'
-// }
+// }   
 // console.log(letL);//консоль выдает ошибку
+
 
 // for (var i = 0; i < 10; i++){
 //     setTimeout(()=> console.log(i),0);//на консоли выводится от 10 до 10
@@ -32,21 +33,22 @@
 // console.log(a);//значение в объекте а не переняло новое значение
 
 
-// var funct1= function(){
-//     for(var i = 1; i < 7; i++){
-//         console.log(i);
-//     }
-//     console.log(i); // на консоли выводится от 1 до 7
-// };
-// funct1();
-
-
-let funct2= function(){
-    for(let i = 1; i < 7; i++){
-        console.log(i);//на консоли выводится от 1 до 6
+var funct1= function(){
+    for(var i = 1; i < 7; i++){
+        console.log(i);
     }
-    console.log(i); //консоль выдает ошибку
+    console.log('===>',i); // на консоли выводится от 1 до 7
 };
-funct2();
+funct1();
+
+
+// let funct2= function(){
+//     for(let i = 1; i < 7; i++){
+//         console.log(i);//на консоли выводится от 1 до 6
+//     }
+//     console.log(i); //консоль выдает ошибку
+// };
+// funct2();
+
 
 

@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to right,#d55c70,#1d93e8) ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.form{
+    width: 500px;
+    border: 2px solid #fff;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header input{
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+}
+.header button{
+    cursor: pointer;
+    width: 20%;
+}
+.todoBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actions button{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+.todoBlock p{
+    color: #fff;
+}
+.change{
+    cursor: pointer;
+    background-color: #d55c70;
+    color: #fff;
+}
+.delete{
+    cursor: pointer;
+    background-color: #1d93e8;
+    color: #fff;
+}
